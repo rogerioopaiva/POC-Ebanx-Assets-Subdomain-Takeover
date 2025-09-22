@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subdomain Takeover PoC</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        }
+        .warning {
+            color: #ffeb3b;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+        .details {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+            text-align: left;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+        h1 { margin-bottom: 30px; }
+        .emoji { font-size: 2em; margin: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="emoji">🔐</div>
+        <h1>Security Research - Subdomain Takeover</h1>
+        
+        <p class="warning">⚠️ This is a harmless security demonstration ⚠️</p>
+        
+        <div class="details">
+            <p><strong>🔍 Vulnerability Type:</strong> Subdomain Takeover</p>
+            <p><strong>🌐 Affected Subdomain:</strong> <code>subdomain.target.com</code></p>
+            <p><strong>⚙️ Method:</strong> GitHub Pages + Dangling CNAME</p>
+            <p><strong>👤 Security Researcher:</strong> [SEU-HANDLE]</p>
+            <p><strong>📅 Discovery Date:</strong> September 21, 2025</p>
+            <p><strong>🏷️ Bug Bounty Program:</strong> [PROGRAMA]</p>
+        </div>
+        
+        <h2>📋 Technical Details</h2>
+        <div class="details">
+            <p><strong>Root Cause:</strong> Dangling CNAME record pointing to unclaimed GitHub Pages resource</p>
+            <p><strong>Impact:</strong> Content injection, phishing potential, brand reputation risk</p>
+            <p><strong>CVSS Score:</strong> Medium to High (depending on subdomain usage)</p>
+        </div>
+        
+        <div class="footer">
+            <p>🛡️ This demonstration is for security research purposes only</p>
+            <p>📧 This page will be removed immediately upon domain owner request</p>
+            <p>🤝 Responsible disclosure practices followed</p>
+        </div>
+    </div>
+    
+    <script>
+        // Log para evidência
+        console.log('Subdomain Takeover PoC - Security Research');
+        console.log('Researcher: [SEU-HANDLE]');
+        console.log('Date: September 21, 2025');
+        console.log('Subdomain: subdomain.target.com');
+    </script>
+</body>
+</html>
